@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Classes\ManySprites.cpp">
+      <Filter>ManySprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SecondLayer.cpp">
+      <Filter>ManySprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimationUtil.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter8\TollgateScene.cpp">
+      <Filter>Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter8\Entity.cpp">
+      <Filter>Chapter8\实体筛选器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter8\Player.cpp">
+      <Filter>Chapter8\实体筛选器\主角筛选器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter8\SimpleMoveController.cpp">
+      <Filter>Chapter8\控制筛选器\简单移动控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter8\Controller.cpp">
+      <Filter>Chapter8\控制筛选器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter8\ThreeDirectionController.cpp">
+      <Filter>Chapter8\控制筛选器\简单移动控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter8\WinScene.cpp">
+      <Filter>Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter9\ScheduleScene.cpp">
+      <Filter>Chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter9\TimeCounter.cpp">
+      <Filter>Chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter9\CallbackTimeCounter.cpp">
+      <Filter>Chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter9\NotificationScene.cpp">
+      <Filter>Chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter9\OtherLayer.cpp">
+      <Filter>Chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter9\NotifyUtil.cpp">
+      <Filter>Chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter10\SaveDataScene.cpp">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter10\StringUtil.cpp">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter10\CsvData.cpp">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter10\CsvUtil.cpp">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\json_reader.cpp">
+      <Filter>Classes\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\json_value.cpp">
+      <Filter>Classes\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json\json_writer.cpp">
+      <Filter>Classes\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter11\Mutou.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter11\ElevenTestScene.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter11\StateWriteArticle.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter11\StateWriteCode.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter11\MutouT.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter11\StateRest.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter11\MutouTFSM.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter12\HelloLua.cpp">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\Classes\ManySprites.h">
+      <Filter>ManySprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SecondLayer.h">
+      <Filter>ManySprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimationUtil.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\TollgateScene.h">
+      <Filter>Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\Entity.h">
+      <Filter>Chapter8\实体筛选器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\Player.h">
+      <Filter>Chapter8\实体筛选器\主角筛选器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\SimpleMoveController.h">
+      <Filter>Chapter8\控制筛选器\简单移动控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\ControllerListener.h">
+      <Filter>Chapter8\控制筛选器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\Controller.h">
+      <Filter>Chapter8\控制筛选器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\ThreeDirectionController.h">
+      <Filter>Chapter8\控制筛选器\简单移动控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter8\WinScene.h">
+      <Filter>Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter9\ScheduleScene.h">
+      <Filter>Chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter9\TimeCounter.h">
+      <Filter>Chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter9\CallbackTimeCounter.h">
+      <Filter>Chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter9\NotificationScene.h">
+      <Filter>Chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter9\OtherLayer.h">
+      <Filter>Chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter9\NotifyUtil.h">
+      <Filter>Chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter10\SaveDataScene.h">
+      <Filter>Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter10\StringUtil.h">
+      <Filter>Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter10\CsvData.h">
+      <Filter>Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter10\CsvUtil.h">
+      <Filter>Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\autolink.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\config.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\features.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\forwards.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\json.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\json_batchallocator.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\reader.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\value.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json\writer.h">
+      <Filter>Classes\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\Mutou.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\ElevenTestScene.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\StateRest.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\StateWriteArticle.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\StateWriteCode.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\MutouT.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\State.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\MutouTFSM.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter11\EnumMsgType.h">
+      <Filter>Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter12\HelloLua.h">
+      <Filter>Chapter12</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ManySprites">
+      <UniqueIdentifier>{213402b4-1080-4695-8db1-ae04c4ac02c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{49169831-7366-4f2c-bfe5-25fe6c65e377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter8">
+      <UniqueIdentifier>{fd93cf06-cd8a-4b8a-851c-a042bfac5c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter8\实体筛选器">
+      <UniqueIdentifier>{60d10bfc-588c-4c1a-9159-15b6ec07d634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter8\实体筛选器\主角筛选器">
+      <UniqueIdentifier>{03617a05-f5c2-4e79-8edb-e9eef1e1ddb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter8\控制筛选器">
+      <UniqueIdentifier>{032391fd-8b47-4a39-86ed-c87e03ff162a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter8\控制筛选器\简单移动控制器">
+      <UniqueIdentifier>{1f0ba80c-735d-4bc0-adfd-9d8f3fade608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter9">
+      <UniqueIdentifier>{38b25041-67ff-47e5-bf16-4d359eaa687f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter10">
+      <UniqueIdentifier>{a2b765d3-22e3-4b3d-b045-57855c66e495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{6446ed5c-04a8-4bcd-9691-8f4502ee8a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\json">
+      <UniqueIdentifier>{1ded8290-56bc-4dfc-a5cd-20f34d1f828a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter11">
+      <UniqueIdentifier>{e61b76b5-1643-489e-b9ac-882e2dc6daf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter12">
+      <UniqueIdentifier>{c6f5703c-98cc-47bf-ac62-c5efd617336c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\json\json_internalarray.inl">
+      <Filter>Classes\json</Filter>
+    </None>
+    <None Include="..\Classes\json\json_internalmap.inl">
+      <Filter>Classes\json</Filter>
+    </None>
+    <None Include="..\Classes\json\json_valueiterator.inl">
+      <Filter>Classes\json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
