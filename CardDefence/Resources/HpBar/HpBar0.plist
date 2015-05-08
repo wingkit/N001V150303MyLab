@@ -30,7 +30,11 @@
 				<key>height</key>
 				<integer>4</integer>
 				<key>originalWidth</key>
+<<<<<<< HEAD
 				<integer>48</integer>
+=======
+				<integer>50</integer>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 				<key>originalHeight</key>
 				<integer>4</integer>
 				<key>x</key>

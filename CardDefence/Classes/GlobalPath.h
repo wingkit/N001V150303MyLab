@@ -5,7 +5,10 @@
 #define PATH_CSV_MONSTER_CONF "csv/Monster.csv" // 怪物配置文件路径
 
 #define PATH_BULLET_NOR "sprite/bullet/bulletNor.png" // 普通子弹文件
+<<<<<<< HEAD
 #define PATH_BULLET_ARR "sprite/bullet/bulletArrow.png" // 神箭子弹文件
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 /* ----------------语言文件-------------------- */
 #define PATH_I18N_PUBLIC "i18n/public.csv" // 公用语言文件

@@ -2,6 +2,7 @@
 #include "TowerPos.h"
 #include "MonsterPos.h"
 #include "PosLoadUtil.h"
+<<<<<<< HEAD
 #include "json/document.h"
 #include "json/writer.h"
 #include "json/stringbuffer.h"
@@ -9,6 +10,10 @@
 
 TowerPosEditorLayer::TowerPosEditorLayer(){
 	m_iCurLevel = 0;
+=======
+TowerPosEditorLayer::TowerPosEditorLayer(){
+	m_iCurLevel = 1;
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	m_enMode = enMonsterPos;
 }
 
@@ -84,6 +89,7 @@ void TowerPosEditorLayer::deleteAllPos(){
 	m_monsterPosList.clear();
 }
 
+<<<<<<< HEAD
 bool TowerPosEditorLayer::outputPosToPlistFile(){
 	bool bRet = false;
 
@@ -111,6 +117,18 @@ bool TowerPosEditorLayer::outputPosToPlistFile(){
 }
 
 bool TowerPosEditorLayer::outputPosToPlistFile(Vector<PosBase*> posList, const char* sFilePath){
+=======
+void TowerPosEditorLayer::outputPosToPlistFile(){
+	// 输出炮台坐标配置文件
+	std::string sTowerPosPath = StringUtils::format("tollgate/towerPos_level_%d.plist", m_iCurLevel);
+	outputPosToPlistFile(m_towerPosList, sTowerPosPath.c_str());
+	// 输出怪物坐标配置文件
+	std::string sMonsterPosPath = StringUtils::format("tollgate/monsterPos_level_%d.plist", m_iCurLevel);
+	outputPosToPlistFile(m_monsterPosList, sMonsterPosPath.c_str());
+}
+
+void TowerPosEditorLayer::outputPosToPlistFile(Vector<PosBase*> posList, const char* sFilePath){
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	ValueMap fileDataMap;
 	// 各个属性
 	int index = 1;
@@ -123,6 +141,7 @@ bool TowerPosEditorLayer::outputPosToPlistFile(Vector<PosBase*> posList, const c
 
 		index++;
 	}
+<<<<<<< HEAD
 	return FileUtils::getInstance()->writeToFile(fileDataMap, sFilePath);
 }
 
@@ -206,6 +225,25 @@ void TowerPosEditorLayer::loadConfigFile(){
 		std::string sMonsterPosPath = StringUtils::format("monsterPos_level_%d.json", m_iCurLevel);
 		posList = PosLoadUtil::getInstance()->loadPosWithJsonFile("monsterPos",sMonsterPosPath.c_str(), enMonsterPos, this, 10, true);
 	}
+=======
+	FileUtils::getInstance()->writeToFile(fileDataMap, sFilePath);
+}
+
+void TowerPosEditorLayer::loadConfigFile(){
+	Size visibleSize = Director::getInstance()->getVisibleSize();
+
+	// 添加地图背景
+	std::string sBG = StringUtils::format("tollgate/level_%d.jpg", m_iCurLevel%3?m_iCurLevel%3:3);
+	Sprite* map = Sprite::create(sBG.c_str());
+	map->setPosition(Point(visibleSize.width/2, visibleSize.height/2));
+	this->addChild(map, 1);
+	// 加载塔坐标对象
+	std::string sTowerPosPath = StringUtils::format("tollgate/towerPos_level_%d.plist", m_iCurLevel);
+	Vector<PosBase*> posList = PosLoadUtil::getInstance()->loadPosWithFile(sTowerPosPath.c_str(), enTowerPos, this, 10, true);
+	// 加载怪物坐标对象
+	std::string sMonsterPosPath = StringUtils::format("tollgate/monsterPos_level_%d.plist", m_iCurLevel);
+	posList = PosLoadUtil::getInstance()->loadPosWithFile(sMonsterPosPath.c_str(), enMonsterPos, this, 10, true);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	m_monsterPosList.pushBack(posList);
 }
 
@@ -242,13 +280,20 @@ void TowerPosEditorLayer::deleteMonsterPos(PosBase* existPos){
 }
 
 // 改变增加类型（怪物或者塔）
+<<<<<<< HEAD
 EnumPosType TowerPosEditorLayer::changeMode(){
+=======
+void TowerPosEditorLayer::changeMode(){
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	if (m_enMode == enMonsterPos){
 		m_enMode = enTowerPos;
 	} else {
 		m_enMode = enMonsterPos;
 	}
+<<<<<<< HEAD
 	return m_enMode;
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }
 
 // 清除所有对象，再开新一层

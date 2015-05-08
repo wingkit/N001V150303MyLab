@@ -27,6 +27,9 @@ private:
 	Vector<PosBase*> m_monsterPosList; // 存放所有怪物的坐标对象
 	float m_fShowTimeCount; // 用于计算怪物出场时间
 	void showMonster(float dt); // 检查是否有新怪物出场
+<<<<<<< HEAD
 	void logic(float dt); // 检查怪物是否需要删除
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 };
 #endif

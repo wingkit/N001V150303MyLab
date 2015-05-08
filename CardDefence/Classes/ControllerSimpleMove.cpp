@@ -78,12 +78,15 @@ void ControllerSimpleMove::moveOneStep(){
 		if (entityPos.x == curDestPos.x && entityPos.y == curDestPos.y){
 			if (m_movePosList.size() > 0){
 				nextMovePos();
+<<<<<<< HEAD
 			} else {
 				// ÒÆ¶¯½áÊø
 				if (m_moveEndFunc){
 					m_moveEndFunc();
 					m_moveEndFunc = nullptr;
 				}
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 			}
 		}
 	}

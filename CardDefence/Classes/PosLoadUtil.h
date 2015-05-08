@@ -22,6 +22,7 @@ public:
 		Node* container,
 		int iLevel,
 		bool isDebug);
+<<<<<<< HEAD
 	/*
 		根据坐标类型从json配置文件中读取坐标对象
 		key       : 需要获取的根键值
@@ -38,6 +39,8 @@ public:
 		Node* container,
 		int iLevel,
 		bool isDebug);
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 private:
 	static PosLoadUtil* m_posLoadUtil;
 };

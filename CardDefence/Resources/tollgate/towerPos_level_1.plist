@@ -3,61 +3,189 @@
 
 <plist version="1.0">
     <dict>
+<<<<<<< HEAD
         <key>1</key>
         <dict>
             <key>x</key>
             <real>646.0000000</real>
             <key>y</key>
             <real>393.0000000</real>
+=======
+        <key>9</key>
+        <dict>
+            <key>x</key>
+            <real>353.0764771</real>
+            <key>y</key>
+            <real>227.0211639</real>
+        </dict>
+        <key>1</key>
+        <dict>
+            <key>x</key>
+            <real>582.6979370</real>
+            <key>y</key>
+            <real>342.8304443</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>2</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>615.0000000</real>
             <key>y</key>
             <real>116.0000000</real>
+=======
+            <real>495.8409729</real>
+            <key>y</key>
+            <real>345.8253479</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>3</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>331.0000000</real>
             <key>y</key>
             <real>265.0000000</real>
+=======
+            <real>395.0073242</real>
+            <key>y</key>
+            <real>347.8220520</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>4</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>177.0000000</real>
             <key>y</key>
             <real>259.0000000</real>
+=======
+            <real>300.1634521</real>
+            <key>y</key>
+            <real>348.8206177</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>5</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>99.0000000</real>
             <key>y</key>
             <real>135.0000000</real>
+=======
+            <real>201.3261261</real>
+            <key>y</key>
+            <real>351.8155212</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>6</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>153.0000000</real>
             <key>y</key>
             <real>390.0000000</real>
+=======
+            <real>111.4738770</real>
+            <key>y</key>
+            <real>351.8155212</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>7</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>92.0000000</real>
             <key>y</key>
             <real>261.0000000</real>
+=======
+            <real>109.4775467</real>
+            <key>y</key>
+            <real>271.9468994</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>8</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>610.6520996</real>
             <key>y</key>
             <real>246.9880219</real>
+=======
+            <real>212.3083191</real>
+            <key>y</key>
+            <real>265.9570923</real>
+        </dict>
+        <key>10</key>
+        <dict>
+            <key>x</key>
+            <real>448.9185181</real>
+            <key>y</key>
+            <real>255.9734802</real>
+        </dict>
+        <key>11</key>
+        <dict>
+            <key>x</key>
+            <real>565.7259521</real>
+            <key>y</key>
+            <real>219.0342560</real>
+        </dict>
+        <key>12</key>
+        <dict>
+            <key>x</key>
+            <real>671.5512085</real>
+            <key>y</key>
+            <real>131.1787262</real>
+        </dict>
+        <key>13</key>
+        <dict>
+            <key>x</key>
+            <real>661.5679932</real>
+            <key>y</key>
+            <real>44.3221588</real>
+        </dict>
+        <key>14</key>
+        <dict>
+            <key>x</key>
+            <real>541.7652588</real>
+            <key>y</key>
+            <real>56.3021164</real>
+        </dict>
+        <key>15</key>
+        <dict>
+            <key>x</key>
+            <real>446.9213867</real>
+            <key>y</key>
+            <real>110.2133102</real>
+        </dict>
+        <key>16</key>
+        <dict>
+            <key>x</key>
+            <real>339.0989990</real>
+            <key>y</key>
+            <real>105.2216949</real>
+        </dict>
+        <key>17</key>
+        <dict>
+            <key>x</key>
+            <real>238.2653503</real>
+            <key>y</key>
+            <real>93.2413406</real>
+        </dict>
+        <key>18</key>
+        <dict>
+            <key>x</key>
+            <real>127.4476852</real>
+            <key>y</key>
+            <real>99.2315140</real>
+        </dict>
+        <key>19</key>
+        <dict>
+            <key>x</key>
+            <real>44.5841675</real>
+            <key>y</key>
+            <real>129.1824036</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
     </dict>
 </plist>

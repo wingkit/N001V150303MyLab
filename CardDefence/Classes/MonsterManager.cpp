@@ -4,7 +4,10 @@
 #include "Monster.h"
 #include "PosBase.h"
 #include "MonsterPos.h"
+<<<<<<< HEAD
 #include "GlobalDefine.h"
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 MonsterManager::MonsterManager(){
 	m_fShowTimeCount = 0;
@@ -50,6 +53,7 @@ MonsterPos* MonsterManager::getMonsterEndPos(){
 
 void MonsterManager::createMonsters(int iCurLevel){
 	// 加载怪物坐标对象
+<<<<<<< HEAD
 	Vector<PosBase*> posList = PosLoadUtil::getInstance()->loadPosWithJsonFile("monsterPos", StringUtils::format("monsterPos_level_%d.json", iCurLevel).c_str(), enTowerPos, this, 10, false);
 	// 当没有用户自定义的json文件时，采用默认的plist文件
 	if (posList.empty()){
@@ -57,12 +61,20 @@ void MonsterManager::createMonsters(int iCurLevel){
 		posList = PosLoadUtil::getInstance()->loadPosWithFile(sMonsterPosPath.c_str(), enMonsterPos, this, 10, false);
 		log("func[createMonsters]: the vector posList is empty!");
 	}
+=======
+	std::string sMonsterPosPath = StringUtils::format("tollgate/monsterPos_level_%d.plist", iCurLevel);
+	auto posList = PosLoadUtil::getInstance()->loadPosWithFile(sMonsterPosPath.c_str(), enMonsterPos, this, 10, false);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	m_monsterPosList.pushBack(posList);
 
 	// 读取配置文件
 	std::string sMonsterConfPath = StringUtils::format("tollgate/monster_level_%d.plist", iCurLevel);
 	ValueMap fileDataMap = FileUtils::getInstance()->getValueMapFromFile(sMonsterConfPath.c_str());
+<<<<<<< HEAD
 	// 怪物数量
+=======
+
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	int size = fileDataMap.size();
 	for (int i = 1; i <= size; i++){
 		Value value = fileDataMap.at(StringUtils::toString(i));
@@ -72,7 +84,10 @@ void MonsterManager::createMonsters(int iCurLevel){
 		float fShowTime = data["showTime"].asFloat();
 
 		auto monster = Monster::createFromCsvFileByID(id);
+<<<<<<< HEAD
 		if (monster == NULL) {log("the monster is Null, read csv file fail!"); return;}
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 		monster->setfShowTime(fShowTime);
 		monster->setVisible(false);
 
@@ -91,9 +106,12 @@ void MonsterManager::createMonsters(int iCurLevel){
 	// 开始检查是否有新怪物出场
 	this->schedule(schedule_selector(MonsterManager::showMonster));
 
+<<<<<<< HEAD
 	// 检查是否有怪物死亡
 	this->schedule(schedule_selector(MonsterManager::logic));
 
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }
 
 void MonsterManager::showMonster(float dt){
@@ -106,7 +124,10 @@ void MonsterManager::showMonster(float dt){
 	// 获取怪物的第一个坐标点
 	auto monsterFirstPos  = getMonsterStartPos();
 
+<<<<<<< HEAD
 	// 从未出场列表中排出达到出场时间的怪物
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	Vector<Monster*> monsterWantToDelete;
 	for (auto monster : m_notShowMonsterList){
 		// 时间达到怪物的出场时间，让怪物出场
@@ -126,6 +147,7 @@ void MonsterManager::showMonster(float dt){
 	for (auto monster : monsterWantToDelete){
 		m_notShowMonsterList.eraseObject(monster);
 	}
+<<<<<<< HEAD
 
 	// 发布怪物数量改变消息
 	int iMonsterNumChange = -monsterWantToDelete.size();
@@ -155,4 +177,6 @@ void MonsterManager::logic(float dt){
 		// 怪物数量为0， 发布怪物全灭消息
 		NOTIFY->postNotification("AllMonsterDead");
 	}
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }

@@ -1,6 +1,9 @@
 #include "TowerBorder.h"
 #include "Hero.h"
+<<<<<<< HEAD
 #include "AnimationUtil.h"
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 TowerBorder::TowerBorder(){
 	m_iLevel = 1;
@@ -29,6 +32,7 @@ void TowerBorder::upgrade(){
 	Sprite* sprite = Sprite::create(sFilePath.c_str());
 
 	bindSprite(sprite);
+<<<<<<< HEAD
 	sprite->setOpacity(0);
 
 	// 炮台等级 一开始初始化是1级
@@ -52,6 +56,20 @@ void TowerBorder::upgrade(){
 		sprite->setOpacity(180);
 		
 		
+=======
+
+	m_iLevel++;
+
+	if (m_iLevel == 2){
+		auto rotateBy = RotateBy::create(25.0f, 360, 360);
+		auto repeat = RepeatForever::create(rotateBy);
+
+		sFilePath = StringUtils::format("sprite/hero/magic_border_%d.png", m_iLevel);
+		sprite = Sprite::create(sFilePath.c_str());
+		sprite->setOpacity(180);
+		sprite->runAction(repeat);
+		this->addChild(sprite, 10);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 	}
 }
@@ -59,6 +77,7 @@ void TowerBorder::upgrade(){
 // 根据左上方与右下方的两点，确定点击的坐标是否在当前矩形上
 bool TowerBorder::isClickMe(Point pos){
 	Size size = getSprite()->getContentSize();
+<<<<<<< HEAD
 	// 塔的中点
 	Point borderPos = getPosition();
 	// 左上角位置
@@ -68,6 +87,14 @@ bool TowerBorder::isClickMe(Point pos){
 
 	if ( uLeftPos.x <= pos.x && pos.x <= dRightPos.x 
 		&& dRightPos.y <= pos.y && pos.y <= uLeftPos.y){
+=======
+	Point borderPos = getPosition();
+
+	Point srcPos = Point(borderPos.x - size.width / 2, borderPos.y + size.height / 2);
+	Point destPos = Point(borderPos.x + size.width / 2, borderPos.y - size.height / 2 );
+
+	if (pos.x >= srcPos.x && pos.x <= destPos.x && pos.y <= srcPos.y && pos.y >= destPos.y){
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 		return true;
 	}
 
@@ -115,6 +142,7 @@ void TowerBorder::showTowerOprBtns(){
 		m_deleteBtn->addTouchEventListener(this, toucheventselector(TowerBorder::deleteClick));
 		m_upgradeBtn->addTouchEventListener(this, toucheventselector(TowerBorder::upgradeClick));
 
+<<<<<<< HEAD
 		this->addChild(m_cancelBtn, 9999);
 		this->addChild(m_deleteBtn, 99999);
 		this->addChild(m_upgradeBtn, 999);
@@ -129,22 +157,42 @@ void TowerBorder::showTowerOprBtns(){
 		oprBtn->setEnabled(true);
 		oprBtn->setVisible(true);
 	}
+=======
+		this->addChild(m_cancelBtn, 999);
+		this->addChild(m_deleteBtn, 999);
+		this->addChild(m_upgradeBtn, 999);
+	}
+
+	m_cancelBtn->setEnabled(true);
+	m_deleteBtn->setEnabled(true);
+	m_upgradeBtn->setEnabled(true);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 	// 按钮出场特效
 	m_cancelBtn->runAction(EaseBounceOut::create(MoveBy::create(0.5f, Point(0, 100))));
 	m_deleteBtn->runAction(EaseBounceOut::create(MoveBy::create(0.5f, Point(-100, 0))));
 	m_upgradeBtn->runAction(EaseBounceOut::create(MoveBy::create(0.5f, Point(100, 0))));
 
+<<<<<<< HEAD
 	
+=======
+	m_isOprBtnsShow = true;
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }
 
 void TowerBorder::deleteOprBtns(){
 	if (m_cancelBtn != NULL){
+<<<<<<< HEAD
 	
 		for (auto oprBtn : vecOprBtns){
 			oprBtn->setEnabled(false);
 			oprBtn->setVisible(false);
 		}
+=======
+		m_cancelBtn->setEnabled(false);
+		m_deleteBtn->setEnabled(false);
+		m_upgradeBtn->setEnabled(false);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 		resetOprBtns();
 	}

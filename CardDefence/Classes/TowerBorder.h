@@ -6,7 +6,11 @@
 #define _TowerBorder_H_
 #include "Entity.h"
 #include "editor-support/cocostudio/CCSGUIReader.h"
+<<<<<<< HEAD
 #include "extensions/cocos-ext.h"
+=======
+#include "cocos-ext.h"
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 #include "ui/CocosGUI.h"
 using namespace cocos2d::ui;
 using namespace cocostudio;
@@ -20,7 +24,11 @@ public:
 	CREATE_FUNC(TowerBorder);
 	virtual bool init();
 
+<<<<<<< HEAD
 	// 炮塔英雄升级
+=======
+	// 升级
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	void upgrade();
 
 	// 判断坐标是否进入范围
@@ -44,13 +52,21 @@ public:
 private:
 	// 绑定的塔
 	Hero* m_hero;
+<<<<<<< HEAD
 	// 所有按钮
 	Vector<Button*> vecOprBtns;
+=======
+
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	// 操作按钮UI
 	Button* m_cancelBtn;
 	Button* m_deleteBtn;
 	Button* m_upgradeBtn;
+<<<<<<< HEAD
 	// 是否已经弹出button中
+=======
+
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	bool m_isOprBtnsShow;
 
 	// 恢复操作按钮的默认位置

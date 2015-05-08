@@ -47,8 +47,11 @@ Point ControllerMoveBase::getNextPos(Point curPos, Point destPos){
 	}
 
 	return curPos;
+<<<<<<< HEAD
 }
 
 void ControllerMoveBase::bindMoveEndFunc(std::function<void()> moveEndFunc){
 	m_moveEndFunc = moveEndFunc;
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }

@@ -1,10 +1,14 @@
 #include "SceneManager.h"
 #include "TollgateScene.h"
 #include "TowerPosEditorScene.h"
+<<<<<<< HEAD
 #include "TollgateSelectScene.h"
 #include "WinScene.h"
 #include "GameOverScene.h"
 #include "TollgateStartScene.h"
+=======
+
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 SceneManager* SceneManager::mSceneManager = NULL;
 
 SceneManager* SceneManager::getInstance(){
@@ -28,9 +32,12 @@ bool SceneManager::init(){
 void SceneManager::changeScene(EnumSceneType enSceneType){
 	Scene* pScene = NULL;
 	switch(enSceneType){
+<<<<<<< HEAD
 	case en_TollgateStartScene: // 开始场景
 		pScene = TollgateStartScene::createScene();
 		break;
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	case en_TollgateScene: // 关卡场景
 		pScene = TollgateScene::createScene();
 		break;
@@ -38,6 +45,7 @@ void SceneManager::changeScene(EnumSceneType enSceneType){
 		pScene = TowerPosEditorScene::createScene();
 		break;
 	case en_WinScene: // 胜利场景
+<<<<<<< HEAD
 		pScene = WinScene::createScene();
 		break;
 	case en_GameOverScene: // 游戏结束场景
@@ -45,6 +53,10 @@ void SceneManager::changeScene(EnumSceneType enSceneType){
 		break;
 	case en_TollgateSelectScene: // 关卡选择场景
 		pScene = TollgateSelectScene::createScene();
+=======
+		break;
+	case en_GameOverScene: // 游戏结束场景
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 		break;
 	}
 

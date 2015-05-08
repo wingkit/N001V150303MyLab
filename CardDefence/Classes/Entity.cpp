@@ -33,6 +33,7 @@ Sprite* Entity::getSprite(){
 }
 
 void Entity::hurtMe(int iHurtValue){
+<<<<<<< HEAD
 	if (m_isDead 
 		|| m_sprite == NULL 
 		|| m_iHP == 0 || m_ID == 0 || m_iModelID == 0 || m_iSpeed == 0){
@@ -41,6 +42,9 @@ void Entity::hurtMe(int iHurtValue){
 		if (m_iModelID == 0) log("monster's modelId is zero, hurtMe return;");
 		if (m_iSpeed == 0) log("monster's speed is zero, hurtMe return;");
 		if ( m_sprite == NULL) log("The monster has been erased, hurtMe return;");
+=======
+	if (m_isDead){
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 		return;
 	}
 

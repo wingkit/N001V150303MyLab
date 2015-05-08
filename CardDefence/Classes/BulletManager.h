@@ -7,7 +7,11 @@
 #define _BulletManager_H_
 #include "cocos2d.h"
 USING_NS_CC;
+<<<<<<< HEAD
 #define BULLET_MAX_CACHE_NUM 3 // 子弹缓存最大数量
+=======
+#define BULLET_MAX_CACHE_NUM 10 // 子弹缓存最大数量
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 class BulletBase;
 class BulletManager : public Node{
 public:

@@ -3,7 +3,11 @@
 #include "cocos2d.h"
 #include "editor-support/cocostudio/CCSGUIReader.h"
 #include "ui/CocosGUI.h"
+<<<<<<< HEAD
 #include "extensions/cocos-ext.h"
+=======
+#include "cocos-ext.h"
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 USING_NS_CC;
 USING_NS_CC_EXT;
@@ -33,6 +37,7 @@ private:
 	void nextLevelBtnOnClick(Ref*, TouchEventType type);
 	// 上一关按钮
 	void preLevelBtnOnClick(Ref*, TouchEventType type);
+<<<<<<< HEAD
 	// 返回按钮
 	void backBtnOnClick(Ref*, TouchEventType type);
 	// 定时器操作Label
@@ -42,5 +47,11 @@ private:
 	CustomCommand _customCommand;
 	// 保存返回
 	LabelTTF* m_labLog;
+=======
+
+	// 绘制函数
+	void onDraw(const kmMat4 &transform, bool transformUpdated);
+	CustomCommand _customCommand;
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 };
 #endif

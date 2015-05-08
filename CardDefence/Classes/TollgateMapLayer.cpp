@@ -4,8 +4,11 @@
 #include "MonsterManager.h"
 #include "Monster.h"
 #include "MonsterPos.h"
+<<<<<<< HEAD
 #include "GlobalDefine.h"
 #include "GlobalClient.h"
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 #define HOME_LAYER_LVL 3 // 堡垒的层次
 #define HERO_LAYER_LVL 10 // 英雄的层次
@@ -13,7 +16,11 @@
 #define BULLET_LAYER_LVL 20 // 子弹的层次
 
 TollgateMapLayer::TollgateMapLayer(){
+<<<<<<< HEAD
 	m_iCurLevel = GlobalClient::getInstance()->getiCurTollgateLevel();
+=======
+	m_iCurLevel = 1;
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }
 
 TollgateMapLayer::~TollgateMapLayer(){
@@ -46,6 +53,7 @@ bool TollgateMapLayer::init(){
 	return true;
 }
 
+<<<<<<< HEAD
 void TollgateMapLayer::initData(){
 	// 初始化塔魂、怪物和魔力数量
 	int iTowerSoulNum = 50;
@@ -57,6 +65,8 @@ void TollgateMapLayer::initData(){
 	NOTIFY->postNotification("MagicChange", (Ref*)iMagicNum);
 }
 
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 void TollgateMapLayer::loadConfig(){
 	Size visibleSize = Director::getInstance()->getVisibleSize();
 
@@ -72,7 +82,10 @@ void TollgateMapLayer::loadConfig(){
 }
 
 void TollgateMapLayer::logic(float dt){
+<<<<<<< HEAD
 	// 英雄不停检测是否能达到攻击范围
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	m_heroMgr->logic(dt, m_monsterMgr->getMonsterList());
 }
 
@@ -81,7 +94,10 @@ void TollgateMapLayer::createEndPoint(){
 
 	Sprite* home = Sprite::create("sprite/end.png");
 	home->setPosition(pos->getPos());
+<<<<<<< HEAD
 	home->setOpacity(150);
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 	auto rotateBy = RotateBy::create(15.0f, 360, 360);
 	auto repeat = RepeatForever::create(rotateBy);
@@ -94,7 +110,10 @@ void TollgateMapLayer::createStartPoint(){
 
 	Sprite* startSp = CCSprite::create("sprite/start.png");
 	startSp->setPosition(pos->getPos());
+<<<<<<< HEAD
 	startSp->setOpacity(150);
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 	auto* rotateBy = RotateBy::create(15.0f, 360, 360);
 	auto* repeat = RepeatForever::create(rotateBy);

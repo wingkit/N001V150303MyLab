@@ -4,6 +4,7 @@
 	<dict>
 		<key>frames</key>
 		<dict>
+<<<<<<< HEAD
 			<key>按钮.png</key>
 			<dict>
 				<key>width</key>
@@ -14,6 +15,18 @@
 				<integer>77</integer>
 				<key>originalHeight</key>
 				<integer>32</integer>
+=======
+			<key>button.png</key>
+			<dict>
+				<key>width</key>
+				<integer>80</integer>
+				<key>height</key>
+				<integer>40</integer>
+				<key>originalWidth</key>
+				<integer>80</integer>
+				<key>originalHeight</key>
+				<integer>40</integer>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 				<key>x</key>
 				<integer>0</integer>
 				<key>y</key>
@@ -23,6 +36,7 @@
 				<key>offsetY</key>
 				<real>0</real>
 			</dict>
+<<<<<<< HEAD
 			<key>返回按钮.png</key>
 			<dict>
 				<key>width</key>
@@ -42,6 +56,8 @@
 				<key>offsetY</key>
 				<real>0</real>
 			</dict>
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 		</dict>
 		<key>metadata</key>
 		<dict>

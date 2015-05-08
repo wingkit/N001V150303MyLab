@@ -21,7 +21,11 @@ I18N* I18N::getInstance(){
 
 bool I18N::init(){
 	// 读取配置文件的字符串
+<<<<<<< HEAD
 	loadStringsFromConf("i18n/public.csv");
+=======
+	loadStringsFromConf("i18n/Public.csv");
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	return true;
 }
 

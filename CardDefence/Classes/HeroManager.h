@@ -20,7 +20,10 @@ public:
 	HeroManager();
 	~HeroManager();
 	static HeroManager* createWithLevel(int iCurLevel); // 根据当前层级生成英雄管理器
+<<<<<<< HEAD
 	// 根据当前关卡生成塔
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	bool initWithLevel(int iCurLevel);
 
 	void logic(float dt, Vector<Monster*> monsterList);

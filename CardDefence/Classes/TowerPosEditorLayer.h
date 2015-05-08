@@ -12,10 +12,17 @@ public:
 	virtual bool init();
 
 	// 把所有坐标对象生成到pList配置文件中
+<<<<<<< HEAD
 	bool outputPosToPlistFile();
 
 	// 切换编辑模式
 	EnumPosType changeMode();
+=======
+	void outputPosToPlistFile();
+
+	// 切换编辑模式
+	void changeMode();
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 	// 切换到下一关卡
 	int nextLvl();
@@ -31,9 +38,13 @@ private:
 	// 存放所有塔的坐标对象
 	Vector<PosBase*> m_towerPosList;
 	/* 把指定坐标对象生成到plist配置文件 */
+<<<<<<< HEAD
 	bool outputPosToPlistFile(Vector<PosBase*> posList, const char* sFilePath);
 	/* 把指定坐标对象生成到json配置文件 */
 	bool outputPosToJsonFile(const char* key, Vector<PosBase*> posList, const char* sFilePath);
+=======
+	void outputPosToPlistFile(Vector<PosBase*> posList, const char* sFilePath);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	// 当前关卡
 	int m_iCurLevel;
 

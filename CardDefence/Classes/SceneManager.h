@@ -10,8 +10,11 @@ public:
 		en_TollgateEditorScene, // 关卡编辑器场景
 		en_WinScene, // 胜利场景
 		en_GameOverScene, // 游戏结束场景
+<<<<<<< HEAD
 		en_TollgateSelectScene, // 关卡选择场景
 		en_TollgateStartScene, // 开始场景
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	};
 	// 获取场景管理器对象
 	static SceneManager* getInstance();

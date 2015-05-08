@@ -11,9 +11,14 @@ class Entity : public Node{
 public:
 	Entity();
 	~Entity();
+<<<<<<< HEAD
 	// 绑定当前的精灵
 	void bindSprite(Sprite* sprite);
 
+=======
+
+	void bindSprite(Sprite* sprite);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	Sprite* getSprite();
 
 	void hurtMe(int iHurtValue); // 被攻击

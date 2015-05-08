@@ -18,7 +18,10 @@ public:
 	~ControllerMoveBase();
 
 	CC_SYNTHESIZE(int, m_iSpeed, iSpeed); // 移动速度
+<<<<<<< HEAD
 	void bindMoveEndFunc(std::function<void()> moveEndFunc);
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 protected:
 	Entity* m_entity; // 实体对象
 	bool m_isMoving; // 是否正在移动
@@ -28,8 +31,11 @@ protected:
 
 	// 给定当前坐标和目标坐标，计算出下一次要设置的坐标
 	Point getNextPos(Point curPos, Point destPos);
+<<<<<<< HEAD
 
 	// 用于移动结束时的回调
 	std::function<void()> m_moveEndFunc;
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 };
 #endif

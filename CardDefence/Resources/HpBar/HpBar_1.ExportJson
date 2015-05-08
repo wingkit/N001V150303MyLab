@@ -33,7 +33,11 @@
               "classname": "LoadingBar",
               "name": "hpbar",
               "ZOrder": 0,
+<<<<<<< HEAD
               "actiontag": 3,
+=======
+              "actiontag": 2,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
               "anchorPointX": 0.5,
               "anchorPointY": 0.5,
               "classType": "CocoStudio.EngineAdapterWrap.CSLoadingBar",
@@ -47,8 +51,13 @@
               "ignoreSize": true,
               "layoutParameter": null,
               "opacity": 255,
+<<<<<<< HEAD
               "positionPercentX": -0.007586479,
               "positionPercentY": -0.01723811,
+=======
+              "positionPercentX": -0.0199455563,
+              "positionPercentY": 0,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
               "positionType": 0,
               "rotation": 0,
               "scaleX": 1,
@@ -56,11 +65,19 @@
               "sizePercentX": 7,
               "sizePercentY": 6,
               "sizeType": 0,
+<<<<<<< HEAD
               "tag": 6,
               "touchAble": false,
               "useMergedTexture": false,
               "visible": true,
               "width": 48,
+=======
+              "tag": 5,
+              "touchAble": false,
+              "useMergedTexture": false,
+              "visible": true,
+              "width": 50,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
               "x": 0,
               "y": 0,
               "capInsetsHeight": 1,
@@ -68,7 +85,11 @@
               "capInsetsX": 0,
               "capInsetsY": 0,
               "direction": 0,
+<<<<<<< HEAD
               "percent": 100,
+=======
+              "percent": 70,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
               "scale9Enable": false,
               "texture": null,
               "textureData": {
@@ -82,9 +103,15 @@
         "options": {
           "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "ImageView",
+<<<<<<< HEAD
           "name": "silderBg",
           "ZOrder": 0,
           "actiontag": 2,
+=======
+          "name": "Image_1",
+          "ZOrder": 0,
+          "actiontag": 1,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "anchorPointX": 0.5,
           "anchorPointY": 0.5,
           "classType": "CocoStudio.EngineAdapterWrap.CSImageView",
@@ -98,22 +125,37 @@
           "ignoreSize": true,
           "layoutParameter": null,
           "opacity": 255,
+<<<<<<< HEAD
           "positionPercentX": 0.497826755,
           "positionPercentY": 0.543423533,
+=======
+          "positionPercentX": 0.4999999,
+          "positionPercentY": 0.499999434,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "positionType": 0,
           "rotation": 0,
           "scaleX": 1,
           "scaleY": 1,
           "sizePercentX": 1.6,
+<<<<<<< HEAD
           "sizePercentY": 8,
           "sizeType": 0,
           "tag": 5,
+=======
+          "sizePercentY": 20,
+          "sizeType": 0,
+          "tag": 4,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "touchAble": false,
           "useMergedTexture": true,
           "visible": true,
           "width": 50,
           "x": 24,
+<<<<<<< HEAD
           "y": 5,
+=======
+          "y": 1,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "capInsetsHeight": 1,
           "capInsetsWidth": 1,
           "capInsetsX": 0,
@@ -145,7 +187,11 @@
       "customProperty": "",
       "flipX": false,
       "flipY": false,
+<<<<<<< HEAD
       "height": 10,
+=======
+      "height": 4,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
       "ignoreSize": false,
       "layoutParameter": null,
       "opacity": 255,

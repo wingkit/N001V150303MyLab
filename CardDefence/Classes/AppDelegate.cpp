@@ -36,7 +36,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     //director->runWithScene(scene);
 	
 	// 调用场景管理器切换场景
+<<<<<<< HEAD
 	SceneManager::getInstance()->changeScene(SceneManager::en_TollgateStartScene);
+=======
+	SceneManager::getInstance()->changeScene(SceneManager::en_TollgateScene);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
     return true;
 }
 

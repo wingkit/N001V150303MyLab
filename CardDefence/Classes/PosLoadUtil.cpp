@@ -1,15 +1,21 @@
+<<<<<<< HEAD
 /************************************************************************/
 /* 
 	描述：坐标提取类
 */
 /************************************************************************/
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 #include "PosLoadUtil.h"
 #include "EnumPosType.h"
 #include "TowerPos.h"
 #include "MonsterPos.h"
+<<<<<<< HEAD
 #include "json/document.h"
 #include "json/reader.h"
 #include "json/stringbuffer.h"
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 PosLoadUtil* PosLoadUtil::m_posLoadUtil = NULL;
 
@@ -59,6 +65,7 @@ Vector<PosBase*> PosLoadUtil::loadPosWithFile(const char* sFilePath, EnumPosType
 		}
 	}
 	return posList;
+<<<<<<< HEAD
 }
 
 Vector<PosBase*> PosLoadUtil::loadPosWithJsonFile(const char* key, const char* sFilePath, EnumPosType enPosType, Node* container, int iLevel, bool isDebug){
@@ -108,4 +115,6 @@ Vector<PosBase*> PosLoadUtil::loadPosWithJsonFile(const char* key, const char* s
 		}
 	}
 	return posList;
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }

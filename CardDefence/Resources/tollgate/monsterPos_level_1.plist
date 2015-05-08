@@ -6,6 +6,7 @@
         <key>9</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>53.0000000</real>
             <key>y</key>
             <real>157.0000000</real>
@@ -16,10 +17,16 @@
             <real>597.0000000</real>
             <key>y</key>
             <real>28.0000000</real>
+=======
+            <real>46.0000000</real>
+            <key>y</key>
+            <real>231.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>1</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>79.0000000</real>
             <key>y</key>
             <real>429.0000000</real>
@@ -30,10 +37,16 @@
             <real>571.0000000</real>
             <key>y</key>
             <real>55.0000000</real>
+=======
+            <real>379.0000000</real>
+            <key>y</key>
+            <real>410.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>2</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>87.0000000</real>
             <key>y</key>
             <real>377.0000000</real>
@@ -44,10 +57,16 @@
             <real>550.0000000</real>
             <key>y</key>
             <real>97.0000000</real>
+=======
+            <real>308.0000000</real>
+            <key>y</key>
+            <real>415.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>3</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>69.0000000</real>
             <key>y</key>
             <real>343.0000000</real>
@@ -58,10 +77,16 @@
             <real>535.0000000</real>
             <key>y</key>
             <real>131.0000000</real>
+=======
+            <real>246.0000000</real>
+            <key>y</key>
+            <real>418.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>4</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>40.0000000</real>
             <key>y</key>
             <real>319.0000000</real>
@@ -72,10 +97,16 @@
             <real>522.0000000</real>
             <key>y</key>
             <real>186.0000000</real>
+=======
+            <real>194.0000000</real>
+            <key>y</key>
+            <real>420.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>5</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>32.0000000</real>
             <key>y</key>
             <real>294.0000000</real>
@@ -86,10 +117,16 @@
             <real>491.0000000</real>
             <key>y</key>
             <real>201.0000000</real>
+=======
+            <real>114.0000000</real>
+            <key>y</key>
+            <real>417.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>6</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>31.0000000</real>
             <key>y</key>
             <real>261.0000000</real>
@@ -100,19 +137,31 @@
             <real>459.0000000</real>
             <key>y</key>
             <real>220.0000000</real>
+=======
+            <real>56.0000000</real>
+            <key>y</key>
+            <real>381.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>7</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>30.0000000</real>
             <key>y</key>
             <real>232.0000000</real>
+=======
+            <real>44.0000000</real>
+            <key>y</key>
+            <real>335.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>8</key>
         <dict>
             <key>x</key>
             <real>37.0000000</real>
             <key>y</key>
+<<<<<<< HEAD
             <real>202.0000000</real>
         </dict>
         <key>29</key>
@@ -121,10 +170,14 @@
             <real>435.0000000</real>
             <key>y</key>
             <real>236.0000000</real>
+=======
+            <real>281.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>10</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>51.0000000</real>
             <key>y</key>
             <real>81.0000000</real>
@@ -135,94 +188,172 @@
             <real>381.0000000</real>
             <key>y</key>
             <real>220.0000000</real>
+=======
+            <real>69.0000000</real>
+            <key>y</key>
+            <real>184.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>11</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>58.0000000</real>
             <key>y</key>
             <real>49.0000000</real>
+=======
+            <real>124.0000000</real>
+            <key>y</key>
+            <real>158.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>12</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>104.0000000</real>
             <key>y</key>
             <real>40.0000000</real>
+=======
+            <real>207.0000000</real>
+            <key>y</key>
+            <real>154.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>13</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>146.0000000</real>
             <key>y</key>
             <real>101.0000000</real>
+=======
+            <real>275.0000000</real>
+            <key>y</key>
+            <real>164.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>14</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>171.0000000</real>
             <key>y</key>
             <real>134.0000000</real>
+=======
+            <real>336.0000000</real>
+            <key>y</key>
+            <real>165.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>15</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>210.0000000</real>
             <key>y</key>
             <real>193.0000000</real>
+=======
+            <real>396.0000000</real>
+            <key>y</key>
+            <real>165.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>16</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>251.0000000</real>
             <key>y</key>
             <real>214.0000000</real>
+=======
+            <real>472.0000000</real>
+            <key>y</key>
+            <real>164.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>17</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>293.0000000</real>
             <key>y</key>
             <real>210.0000000</real>
+=======
+            <real>521.0000000</real>
+            <key>y</key>
+            <real>166.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>21</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>367.0000000</real>
             <key>y</key>
             <real>52.0000000</real>
+=======
+            <real>701.0000000</real>
+            <key>y</key>
+            <real>265.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>18</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>327.0000000</real>
             <key>y</key>
             <real>184.0000000</real>
+=======
+            <real>588.0000000</real>
+            <key>y</key>
+            <real>158.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>20</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>355.0000000</real>
             <key>y</key>
             <real>95.0000000</real>
+=======
+            <real>690.0000000</real>
+            <key>y</key>
+            <real>215.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>19</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>347.0000000</real>
             <key>y</key>
             <real>143.0000000</real>
+=======
+            <real>628.0000000</real>
+            <key>y</key>
+            <real>182.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>22</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>354.0000000</real>
             <key>y</key>
             <real>19.0000000</real>
+=======
+            <real>683.0000000</real>
+            <key>y</key>
+            <real>316.0000000</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
         <key>23</key>
         <dict>
             <key>x</key>
+<<<<<<< HEAD
             <real>381.0000000</real>
             <key>y</key>
             <real>27.0000000</real>
@@ -352,6 +483,11 @@
             <real>424.0000000</real>
             <key>y</key>
             <real>432.0000000</real>
+=======
+            <real>727.4595337</real>
+            <key>y</key>
+            <real>408.7215881</real>
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
         </dict>
     </dict>
 </plist>

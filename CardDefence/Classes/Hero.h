@@ -30,7 +30,10 @@ public:
 	// 升级英雄
 	void upgrade();
 
+<<<<<<< HEAD
 	// 扫描可以攻击的怪物
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	void checkAtkMonster(float ft, Vector<Monster*> monsterList);
 
 private:
@@ -45,6 +48,7 @@ private:
 
 	// 检测并选择进入攻击范围的怪物， 或者攻击已进入范围的怪物
 	void checkAtkMonster(float ft);
+<<<<<<< HEAD
 	// 锁定目标
 	void chooseAim(Vector<Monster*> monsterList);
 	// 
@@ -58,6 +62,17 @@ private:
 
 	void checkAimIsOutOfRange(Vector<Monster*> monsterList);
 	//
+=======
+
+	void chooseAim(Vector<Monster*> monsterList);
+	void chooseAtkMonster(Monster* monster);
+	bool isInAtkRange(Point pos);
+
+	void atk();
+	void atkCollDownEnd(float dt);
+
+	void checkAimIsOutOfRange(Vector<Monster*> monsterList);
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	void missAtkMonster();
 };
 #endif

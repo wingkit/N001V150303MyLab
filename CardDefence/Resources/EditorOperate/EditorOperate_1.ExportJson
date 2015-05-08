@@ -27,7 +27,11 @@
         "options": {
           "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Button",
+<<<<<<< HEAD
           "name": "changeModeBtn",
+=======
+          "name": "outputBtn",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "ZOrder": 0,
           "actiontag": 1,
           "anchorPointX": 0.5,
@@ -39,6 +43,7 @@
           "customProperty": "",
           "flipX": false,
           "flipY": false,
+<<<<<<< HEAD
           "height": 32,
           "ignoreSize": true,
           "layoutParameter": null,
@@ -49,6 +54,18 @@
           "rotation": 0,
           "scaleX": 1,
           "scaleY": 1.2,
+=======
+          "height": 40,
+          "ignoreSize": true,
+          "layoutParameter": null,
+          "opacity": 255,
+          "positionPercentX": 0.945625,
+          "positionPercentY": 0.0493194573,
+          "positionType": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "sizePercentX": 0.12875,
           "sizePercentY": 0.0833333358,
           "sizeType": 0,
@@ -56,9 +73,15 @@
           "touchAble": true,
           "useMergedTexture": true,
           "visible": true,
+<<<<<<< HEAD
           "width": 77,
           "x": 529,
           "y": 25,
+=======
+          "width": 80,
+          "x": 756,
+          "y": 23,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "capInsetsHeight": 1,
           "capInsetsWidth": 1,
           "capInsetsX": 0,
@@ -70,11 +93,19 @@
             "resourceType": 0
           },
           "fontName": "微软雅黑",
+<<<<<<< HEAD
           "fontSize": 11,
           "fontType": 0,
           "normal": null,
           "normalData": {
             "path": "按钮.png",
+=======
+          "fontSize": 18,
+          "fontType": 0,
+          "normal": null,
+          "normalData": {
+            "path": "button.png",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
             "plistFile": "",
             "resourceType": 1
           },
@@ -85,9 +116,15 @@
             "resourceType": 0
           },
           "scale9Enable": false,
+<<<<<<< HEAD
           "scale9Height": 32,
           "scale9Width": 77,
           "text": "切换模式",
+=======
+          "scale9Height": 40,
+          "scale9Width": 80,
+          "text": "输出文件",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "textColorB": 255,
           "textColorG": 255,
           "textColorR": 255
@@ -100,7 +137,11 @@
         "options": {
           "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Button",
+<<<<<<< HEAD
           "name": "preLevelBtn",
+=======
+          "name": "changeModeBtn",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "ZOrder": 0,
           "actiontag": 3,
           "anchorPointX": 0.5,
@@ -112,6 +153,7 @@
           "customProperty": "",
           "flipX": false,
           "flipY": false,
+<<<<<<< HEAD
           "height": 32,
           "ignoreSize": true,
           "layoutParameter": null,
@@ -122,6 +164,18 @@
           "rotation": 0,
           "scaleX": 1,
           "scaleY": 1.2,
+=======
+          "height": 40,
+          "ignoreSize": true,
+          "layoutParameter": null,
+          "opacity": 255,
+          "positionPercentX": 0.945625,
+          "positionPercentY": 0.3201528,
+          "positionType": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "sizePercentX": 0.12875,
           "sizePercentY": 0.0833333358,
           "sizeType": 0,
@@ -129,9 +183,15 @@
           "touchAble": true,
           "useMergedTexture": true,
           "visible": true,
+<<<<<<< HEAD
           "width": 77,
           "x": 606,
           "y": 25,
+=======
+          "width": 80,
+          "x": 756,
+          "y": 153,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "capInsetsHeight": 1,
           "capInsetsWidth": 1,
           "capInsetsX": 0,
@@ -143,11 +203,19 @@
             "resourceType": 0
           },
           "fontName": "微软雅黑",
+<<<<<<< HEAD
           "fontSize": 11,
           "fontType": 0,
           "normal": null,
           "normalData": {
             "path": "按钮.png",
+=======
+          "fontSize": 18,
+          "fontType": 0,
+          "normal": null,
+          "normalData": {
+            "path": "button.png",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
             "plistFile": "",
             "resourceType": 1
           },
@@ -158,9 +226,15 @@
             "resourceType": 0
           },
           "scale9Enable": false,
+<<<<<<< HEAD
           "scale9Height": 32,
           "scale9Width": 77,
           "text": "上一关",
+=======
+          "scale9Height": 40,
+          "scale9Width": 80,
+          "text": "切换模式",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "textColorB": 255,
           "textColorG": 255,
           "textColorR": 255
@@ -175,7 +249,11 @@
           "classname": "Button",
           "name": "nextLevelBtn",
           "ZOrder": 0,
+<<<<<<< HEAD
           "actiontag": 4,
+=======
+          "actiontag": 5,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "anchorPointX": 0.5,
           "anchorPointY": 0.5,
           "classType": "CocoStudio.EngineAdapterWrap.CSButton",
@@ -185,6 +263,7 @@
           "customProperty": "",
           "flipX": false,
           "flipY": false,
+<<<<<<< HEAD
           "height": 32,
           "ignoreSize": true,
           "layoutParameter": null,
@@ -205,6 +284,28 @@
           "width": 77,
           "x": 683,
           "y": 25,
+=======
+          "height": 40,
+          "ignoreSize": true,
+          "layoutParameter": null,
+          "opacity": 255,
+          "positionPercentX": 0.945625,
+          "positionPercentY": 0.230569452,
+          "positionType": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "sizePercentX": 0.12875,
+          "sizePercentY": 0.0833333358,
+          "sizeType": 0,
+          "tag": 8,
+          "touchAble": true,
+          "useMergedTexture": true,
+          "visible": true,
+          "width": 80,
+          "x": 756,
+          "y": 110,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "capInsetsHeight": 1,
           "capInsetsWidth": 1,
           "capInsetsX": 0,
@@ -216,11 +317,19 @@
             "resourceType": 0
           },
           "fontName": "微软雅黑",
+<<<<<<< HEAD
           "fontSize": 11,
           "fontType": 0,
           "normal": null,
           "normalData": {
             "path": "按钮.png",
+=======
+          "fontSize": 18,
+          "fontType": 0,
+          "normal": null,
+          "normalData": {
+            "path": "button.png",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
             "plistFile": "",
             "resourceType": 1
           },
@@ -231,8 +340,13 @@
             "resourceType": 0
           },
           "scale9Enable": false,
+<<<<<<< HEAD
           "scale9Height": 32,
           "scale9Width": 77,
+=======
+          "scale9Height": 40,
+          "scale9Width": 80,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "text": "下一关",
           "textColorB": 255,
           "textColorG": 255,
@@ -246,9 +360,15 @@
         "options": {
           "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Button",
+<<<<<<< HEAD
           "name": "outputBtn",
           "ZOrder": 0,
           "actiontag": 6,
+=======
+          "name": "preLevelBtn",
+          "ZOrder": 0,
+          "actiontag": 7,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "anchorPointX": 0.5,
           "anchorPointY": 0.5,
           "classType": "CocoStudio.EngineAdapterWrap.CSButton",
@@ -258,6 +378,7 @@
           "customProperty": "",
           "flipX": false,
           "flipY": false,
+<<<<<<< HEAD
           "height": 32,
           "ignoreSize": true,
           "layoutParameter": null,
@@ -278,6 +399,28 @@
           "width": 77,
           "x": 760,
           "y": 25,
+=======
+          "height": 40,
+          "ignoreSize": true,
+          "layoutParameter": null,
+          "opacity": 255,
+          "positionPercentX": 0.945625,
+          "positionPercentY": 0.1389028,
+          "positionType": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "sizePercentX": 0.12875,
+          "sizePercentY": 0.0833333358,
+          "sizeType": 0,
+          "tag": 10,
+          "touchAble": true,
+          "useMergedTexture": true,
+          "visible": true,
+          "width": 80,
+          "x": 756,
+          "y": 66,
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "capInsetsHeight": 1,
           "capInsetsWidth": 1,
           "capInsetsX": 0,
@@ -289,11 +432,19 @@
             "resourceType": 0
           },
           "fontName": "微软雅黑",
+<<<<<<< HEAD
           "fontSize": 11,
           "fontType": 0,
           "normal": null,
           "normalData": {
             "path": "按钮.png",
+=======
+          "fontSize": 18,
+          "fontType": 0,
+          "normal": null,
+          "normalData": {
+            "path": "button.png",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
             "plistFile": "",
             "resourceType": 1
           },
@@ -304,6 +455,7 @@
             "resourceType": 0
           },
           "scale9Enable": false,
+<<<<<<< HEAD
           "scale9Height": 32,
           "scale9Width": 77,
           "text": "保存",
@@ -380,6 +532,11 @@
           "scale9Height": 111,
           "scale9Width": 116,
           "text": "返",
+=======
+          "scale9Height": 40,
+          "scale9Width": 80,
+          "text": "上一关",
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
           "textColorB": 255,
           "textColorG": 255,
           "textColorR": 255

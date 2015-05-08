@@ -75,7 +75,10 @@ void TollgateDataLayer::recvRefreshMagicNum(Ref* pData){
 	if (m_iMagicNum <= 0){
 		SceneManager::getInstance()->changeScene(SceneManager::en_GameOverScene);
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }
 
 void TollgateDataLayer::recvAllMonsterDead(Ref* pData){
@@ -90,4 +93,8 @@ int TollgateDataLayer::getiTowerSoulNum(){
 
 int TollgateDataLayer::getiMagicNum(){
 	return m_iMagicNum;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294

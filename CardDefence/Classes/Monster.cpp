@@ -4,12 +4,18 @@
 #include "PosBase.h"
 #include "ControllerSimpleMove.h"
 #include "EnumMonsterPropConfType.h"
+<<<<<<< HEAD
 #include "GlobalDefine.h"
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 Monster::Monster(){
 	m_moveController = NULL;
 	m_iSpeed = MONSTER_SPEED_INIT;
+<<<<<<< HEAD
 	m_isMoveEnd = false;
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }
 
 Monster::~Monster(){
@@ -19,6 +25,7 @@ Monster::~Monster(){
 bool Monster::init(){
 	m_moveController = ControllerSimpleMove::create(this);
 	this->addChild(m_moveController);
+<<<<<<< HEAD
 	// 绑定移动结束回调函数
 	m_moveController->bindMoveEndFunc([&](){
 		// 发布魔力值改变消息
@@ -27,6 +34,8 @@ bool Monster::init(){
 
 		m_isMoveEnd = true;
 	});
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 	return true;
 }
 
@@ -80,10 +89,13 @@ void Monster::moveByPosList(Vector<PosBase*> posList){
 
 void Monster::onDead(){
 	this->removeFromParent();
+<<<<<<< HEAD
 
 	// 发布塔魂增加消息
 	int iTowerSoulNumChange = 3 * getiLevel();
 	NOTIFY->postNotification("TowerSoulChange", (Ref*)iTowerSoulNumChange);
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 }
 
 void Monster::onBindSprite(){
@@ -94,8 +106,12 @@ void Monster::onBindSprite(){
 
 	// 设置坐标
 	Size size = this->getContentSize();
+<<<<<<< HEAD
 	//log(StringUtils::format("size.w:%f, size.h:%f", size.width, size.height).c_str());
 	UI->setPosition(Point(0 - size.width * 0.25f, size.height * 0.5f));
+=======
+	UI->setPosition(Point(size.width * 0.5f, size.height));
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 
 	// 获取进度条控件
 	m_hpBar = (LoadingBar*)Helper::seekWidgetByName(UI, "hpbar");

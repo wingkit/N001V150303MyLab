@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 /*
 	ÃèÊö£ºÅÚËþ×ø±êÎ»ÖÃ
 */
+=======
+>>>>>>> 242d9fd9e2218bb56c21948853acb0e3a3cae294
 #ifndef _TowerPos_H_
 #define _TowerPos_H_
 #include "cocos2d.h"
